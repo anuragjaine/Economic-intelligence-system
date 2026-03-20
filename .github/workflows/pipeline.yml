@@ -2,8 +2,8 @@ name: Economic Intelligence Pipeline
 
 on:
   schedule:
-    - cron:'0 0 * * *' # Runs exactly once a day (at midnight UTC)
-  workflow_dispatch: # Adds a button to let you run it manually anytime on GitHub
+    - cron: '0 0 * * *' # Runs exactly once a day (midnight UTC)
+  workflow_dispatch: 
 
 jobs:
   run-pipeline:

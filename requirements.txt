@@ -1,0 +1,7 @@
+pandas
+feedparser
+supabase
+transformers
+torch
+yfinance
+fredapi
